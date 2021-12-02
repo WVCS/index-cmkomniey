@@ -1,19 +1,33 @@
-h1{ 
-  text-align: center;
-  color:black;
-}
 body{ 
-  background-color:lightblue;
+  background-color:grey;
 }
-p{
-  border:dashed;
-  border-color: black;
-  color: black;
-  font size: 40px;
+h2{ 
+   color:black;
+     font-size:300%; 
+  font-family: Arial
 }
-img:hover{
-  border: black dashed;
-  border-radius: 20%;
+    img{
+      border:solid black  10px;
+}
+img:hover{ 
+  border: red dashed
+}
+li,p{
+  color:darkred;
+    font-size:50px;
+  margin-left: 800px;
+  font-family: arial
+}
+ul{
+ list-style:inside;
+   list-style:numbered;
+}
+table, tr, td, th{ 
+border: 8px solid black;
+  border-collapse: collapse;
+  font-size: 50px;
+
+
 }
 ul{ 
   list-style-type:none;
@@ -28,6 +42,4 @@ li a:hover {
   background-color:yellow;
   color: black;
   
-  
-
   

@@ -1,16 +1,20 @@
 h1{ 
   text-align: center;
   color:black;
+  font-family:"Verdana";
+  font-weight: bold;
   
 }
 body{ 
-  background-color:lightblue;
+  background-color:lightgrey;
 }
 p{
-  border:dashed;
+  border:solid;
   border-color: black;
   color: black;
-  font size: 40px;
+  font-size: 60px;
+  font-weight: bold;
+    
 }
 img:hover{
   border: black dashed;
@@ -31,10 +35,11 @@ li a {
   float:left;
   padding: 10px 180px;
   color: black;
+  font-family:"Verdana";
+  font-weight: bold;
+  
  
 }
 li a:hover {  
   background-color:yellow;
   color: black;
-  
-  
